@@ -19,7 +19,6 @@ body{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
-
 .cabecalho{
     padding: 2% 0% 0% 15%;
 }
@@ -87,7 +86,7 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__navegacao:hover{
+.apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
 .apresentacao__imagem{
@@ -112,9 +111,6 @@ body{
     }
     .apresentacao{
         flex-direction: column-reverse;
-        padding: 5%;
     }
-    .apresentacao__conteudo{
-        width: auto;
-    }
+    
 }
